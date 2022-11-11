@@ -1,79 +1,95 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    color: #FFB9B9;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 20px;
-  }
+*{
+  margin: 0;
+  padding: 0;
+}
 
+.container-fluid{
+  background-color: palevioletred;
+  height: 10vh;
 
   
-  a:hover {
-    opacity: 0.7;
-  }
-  
-  #logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #FFF;
-    
-  }
+} 
+#logo{
+  height: 100%;
+}  
+.container-fluid .nav{
+  background-color: #FFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  float: right;
+  justify-content: center;
+  margin-top: 1.5em;
+  height: 50%;
+ 
+}
 
-  #unha{
-    size: 30px;
-  }
-  
-  nav {
+li{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5em;
+ 
+}
+
+@media (max-width: 850px )  { 
+  li{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #FFB9B9;
-    height: 10vh;
+    flex-direction: row;
+    font-size: 13px;
+    margin-bottom: 1em;
+    
   }
-  
-  .nav-bar{
-    background-color: #FFF;
-    border-radius: 20px;
-    height: 50%;
-    width: 40%;
-    align-items: center;
-  }
-
-
-
-  
-  .nav-list {
-    list-style: none;
+  .container-fluid .nav{
     display: flex;
-   
+    text-size-adjust: auto;
+    width: 70%;
+      
     
-    justify-content: center;
-    margin-top: 10px;
+  }   
+}
+
+@media (max-width: 1588px )  { 
+  li{
+    margin-top: 0.2em;
     
   }
-  
-  .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+
+}
+
+
+@media (max-width: 507px )  { 
+    li{
+      display: flex;
+      flex-direction: row;
+      font-size: 9px;
+      
+    }
+    .container-fluid .nav{
+      display: flex;
+      text-size-adjust: auto;
+     
+      height: 5em;
+      width: 12em;
+      margin-top: 3px;
+       
+    }   
+}
+
+@media (max-width: 507px )  { 
+  #logo{
+    height: 90%;
   }
 
+}
+
+.nav-link{
+  color: #747474;
+
+}
 
 
-  body {
-    background: url("/serv.png" ) no-repeat ;
-    background-size: cover;
-    
-   
-   }
 
-   svg{
-    size: 30px;
-    font-family: 30px;
-    font-size: 40px;
-   }
+
+
+
