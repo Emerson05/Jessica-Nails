@@ -16,6 +16,10 @@
 
 }
 
+ul{
+    list-style: none;
+}
+
 .p3 {
     text-align: center;
 }

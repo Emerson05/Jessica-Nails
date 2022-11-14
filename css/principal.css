@@ -11,8 +11,13 @@
 }
 
 
-#logo {
+#img-logo {
   height: 100%;
+  position: absolute;
+  color: #FFF;
+  margin-top: 1em;
+  font-size: 2em;
+  margin-left: 10%;
 }
 
 .container-fluid .nav {
@@ -20,75 +25,84 @@
   border-radius: 20px;
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 45%;
   float: right;
   justify-content: center;
   margin-top: 1.5em;
-  height: 50%;
+  height: 60%;
+  font-size: 10px;
 
 }
 
-li {
+
+.nav-item {
+
+  padding: 0;
+  width: auto;
   display: flex;
-  flex-direction: row;
-  margin-top: 0.5em;
+  justify-content: center;
+  margin-top: 1.5em;
+
 
 }
 
-@media (max-width: 850px) {
-  li {
-    display: flex;
-    flex-direction: row;
-    font-size: 13px;
-    margin-bottom: 1em;
-
-  }
-
-  .container-fluid .nav {
-    display: flex;
-    text-size-adjust: auto;
-    width: 70%;
+.nav-item a {
 
 
-  }
-}
-
-@media (max-width: 1588px) {
-  li {
-    margin-top: 0.01em;
-
-  }
+  display: flex;
+  font-size: 1em;
 
 }
 
-
-@media (max-width: 507px) {
-  li {
-    display: flex;
-    flex-direction: row;
-    font-size: 13px;
-
-  }
-
-  .container-fluid .nav {
-    display: flex;
-    text-size-adjust: auto;
-
-    height: 5em;
-    width: 12em;
-    margin-top: 3px;
-
-  }
+#mani {
+  position: absolute;
 }
 
-@media (max-width: 507px) {
-  #logo {
-    height: 90%;
-  }
-
-}
 
 .nav-link {
   color: #747474;
 
+}
+
+@media (max-width: 630px) {
+  #img-logo {
+    font-size: 95%;
+    margin-top: 2em;
+  }
+
+  #mani {
+    width: 10%;
+    margin-top: 1em;
+  }
+}
+
+@media (max-width: 470px) {
+  .nav-item {
+
+
+
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    margin-top: 1em;
+  }
+
+  .nav-link {
+    font-size: 1em;
+    size: 1em;
+    padding: 0;
+
+  }
+
+
+}
+
+
+@media (min-width: 1930px) {
+  .container-fluid .nav {
+    width: 30%;
+    display: flex;
+
+
+  }
 }
