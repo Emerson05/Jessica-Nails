@@ -1,18 +1,21 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.container-fluid{
-  background-color: palevioletred;
+.container-fluid {
+  background-color: #FF92AB;
   height: 10vh;
 
-  
-} 
-#logo{
+
+}
+
+
+#logo {
   height: 100%;
-}  
-.container-fluid .nav{
+}
+
+.container-fluid .nav {
   background-color: #FFF;
   border-radius: 20px;
   display: flex;
@@ -22,74 +25,70 @@
   justify-content: center;
   margin-top: 1.5em;
   height: 50%;
- 
+
 }
 
-li{
+li {
   display: flex;
   flex-direction: row;
   margin-top: 0.5em;
- 
+
 }
 
-@media (max-width: 850px )  { 
-  li{
+@media (max-width: 850px) {
+  li {
     display: flex;
     flex-direction: row;
     font-size: 13px;
     margin-bottom: 1em;
-    
+
   }
-  .container-fluid .nav{
+
+  .container-fluid .nav {
     display: flex;
     text-size-adjust: auto;
     width: 70%;
-      
-    
-  }   
+
+
+  }
 }
 
-@media (max-width: 1588px )  { 
-  li{
-    margin-top: 0.2em;
-    
+@media (max-width: 1588px) {
+  li {
+    margin-top: 0.01em;
+
   }
 
 }
 
 
-@media (max-width: 507px )  { 
-    li{
-      display: flex;
-      flex-direction: row;
-      font-size: 9px;
-      
-    }
-    .container-fluid .nav{
-      display: flex;
-      text-size-adjust: auto;
-     
-      height: 5em;
-      width: 12em;
-      margin-top: 3px;
-       
-    }   
+@media (max-width: 507px) {
+  li {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+
+  }
+
+  .container-fluid .nav {
+    display: flex;
+    text-size-adjust: auto;
+
+    height: 5em;
+    width: 12em;
+    margin-top: 3px;
+
+  }
 }
 
-@media (max-width: 507px )  { 
-  #logo{
+@media (max-width: 507px) {
+  #logo {
     height: 90%;
   }
 
 }
 
-.nav-link{
+.nav-link {
   color: #747474;
 
 }
-
-
-
-
-
-
