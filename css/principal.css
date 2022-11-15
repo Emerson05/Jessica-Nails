@@ -12,6 +12,7 @@
 }
 
 
+
 #img-logo {
   height: 100%;
   position: absolute;
@@ -123,3 +124,20 @@ body{
   padding: 0;
 }
 
+#Frame{
+  width: 50%;
+  height: 60em;
+  margin-left: 25%;
+ 
+}
+
+
+#tiagendar{
+  font-size: 2em;
+  text-align: center;
+  margin-top: 2em;
+  color: #747474;
+  
+  
+  
+}
