@@ -39,9 +39,10 @@ p {
 
 
 .container .row .col img {
-
-    border-radius: 30px;
-    border: solid black 3px;
+   
+    width: 20%;
+    border-radius: 50%;
+    
 
 }
 
