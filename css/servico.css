@@ -1,0 +1,57 @@
+.container{
+    margin-bottom: 0;
+    
+    padding-bottom: 0;
+    
+    
+}
+
+.container .row{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1%;
+}
+p{
+    font-size: 1.5em;
+   
+}
+
+.col-sm{
+    margin-bottom: 1%;
+    
+}
+
+.btn-acre{
+    margin-top: 40%;
+    margin-bottom: 20%;
+    border-radius: 20px;
+    border: none;
+    background-color: #FF92AB;
+    width: 80%;
+    color: #FFF;
+    height: auto;
+    margin-left: 10%;
+    font-size: 1.5em;
+}
+
+#btn-acre{
+    margin-top: 7%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    border: none;
+    background-color: #FF92AB;
+    width: 40%;
+    color: #FFF;
+    height: auto;
+    font-size: 1.5em;
+}
+
+#manipedi{
+    border-radius: 50%;
+    width: 30%;
+}
+
+
+
+
+
