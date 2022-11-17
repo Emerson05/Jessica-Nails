@@ -9,20 +9,23 @@
 .container .row{
     margin: 0;
     padding: 0;
-    margin-bottom: 1%;
+   
+    
 }
 p{
     font-size: 1.5em;
+    margin-top: 2em;
    
 }
 
 .col-sm{
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+    margin-top: 0;
     
 }
 
 .btn-acre{
-    margin-top: 40%;
+    margin-top: 10%;
     margin-bottom: 20%;
     border-radius: 20px;
     border: none;
@@ -47,11 +50,7 @@ p{
 }
 
 #manipedi{
-    border-radius: 50%;
+    border-radius: 20%;
+    border: solid #FF92AB 2px;
     width: 30%;
 }
-
-
-
-
-
